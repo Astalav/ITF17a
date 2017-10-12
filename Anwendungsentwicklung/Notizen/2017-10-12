@@ -11,4 +11,3 @@
 		- Zweigüberdeckung bzw. Kantenüberdeckung: Durchlaufen aller möglichen Kanten von Verzweigungen des Kontrollflusses
 		- Bedingungsüberdeckung bzw. Termüberdeckung (mehrere Varianten): Durchlaufen aller möglichen ausschlaggebenden Belegungen bei logischen Ausdrücken in Bedingungen
 		- Pfadüberdeckung (mehrere Varianten): Betrachtung der Pfade durch ein Modul
-
