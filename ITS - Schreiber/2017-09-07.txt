@@ -1,0 +1,41 @@
+
+Komponenten eines PC-Systems
+
+	- Motherboard
+	- CPU*
+	- Chipsatz*
+	- RAM
+	- Netzteil 
+	- Lüfter
+	- Festplatte
+	- Grafikkarte
+	- Gehäuse
+	- Maus
+	- Tastatur
+	- Bildschirm
+	- Soundkarte
+	- Lautsprecher
+	- BIOS
+	- Netzwerkkarte
+	- Optische Laufwerkerke
+	- Webcam
+
+
+Von-Neumann-Architektur
+	
+	- Schaltungskonzept zu Realisierung universeller Rechner
+	- Angeleht an den Aufbau des menschlichen Gehirns
+	- Bestehend aus mehreren Komponenten
+		> Rechenwerk
+			Führt die Rechenoperationen und logsichen Verknüpfungen durch(auch ALU[arithmetic logic unit]). Diese werden durch Verknüpfung von zwei Binärwerten mit gleicher Stellenzahl n realisiert.
+		> Steuerwerk
+			Das Steuerwerk interpretiert die Anweisungen eines Programmes und verknüpft die erforderlichen Datenquellen/-senken und Rechenkomponenten um den reibungslosen Programmablauf zu gewährleisten.
+		> Bus-System
+			Verknüpft die einzelnen Komponenten und gewährleistet die Kommunikation zwischen jenen.
+		> Ein/Ausgabewerk
+			Sorgt für die Kommunikation zwischen Computer und Mensch über verschiedene Ein- und Ausgabeschnittstellen
+		> Speicherwerk
+			Persistiert die vom Programm geforderten und ermittelten Daten
+	- Realisiert all Eigenschaften einer Turingmaschine
+	- Komponenten nutzen gemeinsames Bus-System
+	- Erlaubt dem Rechner im laufenden Betrieb Programme zu verändern

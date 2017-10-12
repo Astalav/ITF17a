@@ -1,2 +1,0 @@
-# ITF17a
-Schulgedöhns

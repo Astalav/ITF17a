@@ -1,3 +1,5 @@
+# -*- coding: utf8 -*-
+
 from decimal import *
 import locale
 
@@ -31,9 +33,11 @@ def calcEndfähigesDarlehenZins(Leihbetrag, Jahre, ZinsAsFloat):
 def darlehensrechner():
 	locale.setlocale(locale.LC_ALL, '')
 	startupPrint(50)
+
 	leihbetrag = Decimal(input("Bitte Leihbetrag eingeben: "))
 	zins = Decimal(input("Bitte Zinssatz in % eingeben: "))/Decimal(100)
 	laufzeit = Decimal(input("Bitte Laufzeit in Jahren eingeben "))
+	
 	print(locale.currency(calcEndfähigesDarlehenGesamt(leihbetrag,laufzeit,zins), grouping=True))
 
 

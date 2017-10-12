@@ -1,0 +1,95 @@
+AB Bearbeitung 1-AB-Elektronische-Grundgrößen
+	4.1.1 Strom Spannung Widerstand
+
+	1
+		Ja, mit einschalten des PC's wird ein elektronischer Stromkreis geschlossen, da ohne jenen die Energieversorgung eines elektronischen Gerätes nicht Funktionieren würde
+
+	2
+		Stromquellen:
+			- Trafo
+			- Steckdose (Lokales Stromnetz)
+			- Batterie
+		Verbraucher:
+			- Toaster 
+			- Herd 
+			- Kühlschrank
+
+	3
+		DC
+			Direct Current: Gleichstrom
+
+		AC
+			Alternating Current: Wechselstrom
+
+		Technische Stromrichtung
+			Der Strom fließt vom Pluspol zum Minuspol
+
+		Physikalische Stromrichtung
+			Der Strom fließt vom Minuspol zum Pluspol
+
+		Ampere (A)
+			Einheit für die elektrische Stromstärke
+
+		Volt (V)
+			Einheit für elektrische Spannung
+
+		Elektrische Spannung U
+			Ladungsmenge, die Je Sekunde einen Leitungsquerschnitt passiert
+
+		elektrische Stromstärke I
+			Kraft bzw. Antrieb, der auf Ladungsträger wirkt
+
+		Gleichstrom
+			Der Strom fließt mit gleicher Stromstärke ständig in dieselbe Richtung
+
+		Wechselstrom
+			Der Strom ändert Richtung und Stromstärke. Die Ladungsträger pendeln im Leiter hin und her, ohne sich weiterzubewegen
+
+		Elektrischer Strom
+			die gerichtete Bewegung freier Ladungsträger
+	
+	4
+		Diese Pfeile geben die Spannung/Stärke zwischen Pfeilanfund und Spitze zur Schau und werden in technischer Stromrichtung ausgerichtet
+
+	5
+		2017-09-14-Strommessung.png
+
+	6
+		Festwiederstand
+			Ein Widerstand mit festem Widerstandswert
+
+		Temperaturabhängiger Widerstand
+			Ein Widerstand der seinen Widerstand abhängig von der Materialtemperatur ändert
+
+		Potenziometer
+			Ein Widerstand welcher einstellbare Widerstandsgrößen dynamisch anpassbar anbietet
+
+	7
+		Kaltleiter
+			Weniger Widerstand je kälter das Material (Leitet wenn kalt)
+
+		Warmleiter
+			Weniger Widerstand je wärmer das Material (Leitet wenn warm)
+
+	8
+		a
+			blau-grau-gelb-silber
+				68 *10⁴ Ω 10%
+
+			braun-schwarz-grün
+				10 *10⁵ Ω
+
+			orange-weiß-braun-blau
+				39 *10² Ω 0.25%
+
+			braun-rot-rot-rot
+				12 *10² Ω 2%
+
+			orange-orange-silber-violett
+				33 *10⁻² Ω 0.1%
+
+			gelb-violett-braun-gold
+				47 *10 Ω 5%
+
+		b
+			

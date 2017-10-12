@@ -1,0 +1,10 @@
+Elektrische Grundgrößen
+	- Spannung U in Volt V
+	- Stromstärke I in Ampere A
+	- Frequenz f in Hertz Hz
+	- Leistung P in Watt W
+	- Wiederstand R Ohm Ω
+	- Arbeit/Energie W in Joule J
+
+Ohmsches Gesetz
+R = U / I
