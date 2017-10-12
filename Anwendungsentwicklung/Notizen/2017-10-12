@@ -6,6 +6,9 @@
 		Code bekannt und Test an Anlehnung zu diesem implementiert
 		- Zeilenüberdeckung: Ausführung aller Quellcode-Zeilen
 		- Anweisungsüberdeckung bzw. Knotenüberdeckung: Ausführung aller Anweisungen
+			- Statement Coverage
+			- Erreicht 100% wenn die Testabdeckung es ermöglicht jede "if" Anweisung oder ähnliches auszuführen
 		- Zweigüberdeckung bzw. Kantenüberdeckung: Durchlaufen aller möglichen Kanten von Verzweigungen des Kontrollflusses
 		- Bedingungsüberdeckung bzw. Termüberdeckung (mehrere Varianten): Durchlaufen aller möglichen ausschlaggebenden Belegungen bei logischen Ausdrücken in Bedingungen
 		- Pfadüberdeckung (mehrere Varianten): Betrachtung der Pfade durch ein Modul
+
