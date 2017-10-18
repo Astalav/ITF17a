@@ -24,10 +24,10 @@ def startupPrint(size):
 	print(line2n6)
 	print(line1n7)
 
-def calcEndfähigesDarlehenGesamt(Leihbetrag, Jahre, ZinsAsFloat):
-	return (Leihbetrag + calcEndfähigesDarlehenZins(Leihbetrag, Jahre, ZinsAsFloat))
+def calcEndfaehigesDarlehenGesamt(Leihbetrag, Jahre, ZinsAsFloat):
+	return (Leihbetrag + calcEndfaehigesDarlehenZins(Leihbetrag, Jahre, ZinsAsFloat))
 
-def calcEndfähigesDarlehenZins(Leihbetrag, Jahre, ZinsAsFloat):
+def calcEndfaehigesDarlehenZins(Leihbetrag, Jahre, ZinsAsFloat):
 	return (Jahre * (Leihbetrag * ZinsAsFloat))
 
 def darlehensrechner():
@@ -38,7 +38,7 @@ def darlehensrechner():
 	zins = Decimal(input("Bitte Zinssatz in % eingeben: "))/Decimal(100)
 	laufzeit = Decimal(input("Bitte Laufzeit in Jahren eingeben "))
 	
-	print(locale.currency(calcEndfähigesDarlehenGesamt(leihbetrag,laufzeit,zins), grouping=True))
+	print(locale.currency(calcEndfaehigesDarlehenGesamt(leihbetrag,laufzeit,zins), grouping=True))
 
 
 darlehensrechner()
