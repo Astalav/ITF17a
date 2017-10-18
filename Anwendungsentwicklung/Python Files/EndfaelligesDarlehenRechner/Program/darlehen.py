@@ -39,6 +39,3 @@ def darlehensrechner():
 	laufzeit = Decimal(input("Bitte Laufzeit in Jahren eingeben "))
 	
 	print(locale.currency(calcEndfaehigesDarlehenGesamt(leihbetrag,laufzeit,zins), grouping=True))
-
-
-darlehensrechner()
