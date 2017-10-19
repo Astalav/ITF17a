@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lin",
+				"line2n6"
+			],
+			[
+				"pr",
+				"preScore"
+			],
+			[
+				"W",
+				"WTree"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"key",
+				"keyValues"
+			],
+			[
+				"el",
+				"elements"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ITF17aGIT.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/PythonCustomBuild.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/PythonCustomBuild.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PythonCustomBuild.sublime-build",
+					"Run Test"
+				]
+			],
+			[
+				"Packages/User/PythonCustomBuild.sublime-build",
+				"Run Test"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/python-test-suit.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python-test-suit.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/python-test-suit.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "prv",
+		"selected_items":
+		[
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/david/Documents/ITF17a"
+	],
+	"file_history":
+	[
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program/darlehen.py",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Tests/darlehen_test.py",
+		"/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/EnfaelligesDarlehenRechner.sublime-project",
+		"/home/david/Documents/ITF17a/.gitignore",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/__init__123.py",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program/__init__.py",
+		"/home/david/.config/sublime-text-3/Packages/Python/Python.sublime-build",
+		"/home/david/.config/sublime-text-3/Packages/User/python-test-suit.sublime-buildc",
+		"/home/david/.config/sublime-text-3/Packages/User/python-test-suit.sublime-build",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-09-14",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/darlehen_test.py",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/darlehen.py",
+		"/home/david/.config/sublime-text-3/Cache/Python/Python.sublime-syntax.cache",
+		"/home/david/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Notizen/2017-10-12",
+		"/home/david/Documents/ITF17a/ITS - Schreiber/2017-10-12",
+		"/home/david/Documents/ITF17a/Python/Darlehen/darlehen.py",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-12",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-05.txt",
+		"/home/david/Documents/ITF17a/ITS - Schreiber/2017-10-05.txt",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-09-14.txt",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-09-21.txt",
+		"/home/david/Documents/ITF17a/ITS - Schreiber/2017-09-21.txt",
+		"/home/david/Documents/ITF17a/ITS - Schreiber/2017-09-14.txt",
+		"/home/david/Documents/ITF17a/ITS - Schreiber/2017-09-07.txt",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-09-07.txt",
+		"/home/david/Documents/ITF17a/ITS - Schneider/2017-09-07.txt",
+		"/home/david/Documents/ITF17a/WGP/Stunde1.txt",
+		"/home/david/Documents/ITF17a/Python/Day1_Test.py",
+		"/home/david/Documents/ITF17a/Termine.txt",
+		"/home/david/Dropbox/ASP/T9/orig.save",
+		"/home/david/Dropbox/ASP/T9/Korps/korpus",
+		"/home/david/Dropbox/ASP/T9/eingabe",
+		"/home/david/Dropbox/ASP/T9/fehler.py",
+		"/home/david/Dropbox/ASP/T9/createInputstream.py",
+		"/home/david/Dropbox/ASP/T9/WTree.py",
+		"/home/david/Dropbox/ASP/T9/T9.py",
+		"/home/david/Dropbox/ASP/T9/ergebnis.save",
+		"/home/david/Documents/ASP/T9/WahrschTree.py",
+		"/home/david/Dropbox/ASP/T9/ITree.py",
+		"/home/david/Dropbox/ASP/T9/Korps/german.dic",
+		"/home/david/Dropbox/ASP/T9/Korps/dicChange.py",
+		"/home/david/Dropbox/ASP/T9/Korps/ger.dic",
+		"/home/david/Documents/ASP/T9 prog.py",
+		"/home/david/Documents/ASP/WahrschTree.py",
+		"/home/david/Documents/ASP/Tree.py",
+		"/home/david/Documents/ASP/german.dic",
+		"/home/david/Documents/ASP/Dictionary.dic",
+		"/home/david/Documents/ASP/wörter.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scr",
+			"numpy",
+			"math.inf",
+			"auto",
+			"bka",
+			"^bka",
+			"bka",
+			"print"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ITF17aGIT.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 292.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/PythonCustomBuild.sublime-build",
+	"project": "ITF17aGIT.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/EnfaelligesDarlehenRechner.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
