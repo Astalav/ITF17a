@@ -36,10 +36,10 @@
 	"buffers":
 	[
 		{
-			"file": "ITF17aGIT.sublime-project",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 45,
+				"buffer_size": 24,
 				"line_ending": "Unix"
 			}
 		}
@@ -132,7 +132,9 @@
 	},
 	"expanded_folders":
 	[
-		"/home/david/Documents/ITF17a"
+		"/home/david/Documents/ITF17a",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files"
 	],
 	"file_history":
 	[
@@ -233,24 +235,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "ITF17aGIT.sublime-project",
+					"file": ".gitignore",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 45,
+						"buffer_size": 24,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								24,
+								24
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

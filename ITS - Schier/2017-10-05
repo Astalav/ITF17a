@@ -5,3 +5,7 @@ R = 1 / (1/R¹ + 1/R² + ...)
 R = (R¹*R²)/(R¹+R²)			// Wenn nur 2 parallele Wiederstände
 U ist konstant
 
+Reihenschaltung:
+
+I ist konstant
+R = R¹ + R² + ... + Rn
