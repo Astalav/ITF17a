@@ -36,10 +36,30 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "ITS - Schier/2017-10-19",
 			"settings":
 			{
-				"buffer_size": 24,
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ITS - Schier/2017-10-12",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Parallelschaltung:\n\nI = I¹ + I² + I³ + ...\nR = 1 / (1/R¹ + 1/R² + ...)\nR = (R¹*R²)/(R¹+R²)\t\t\t// Wenn nur 2 parallele Wiederstände\nU ist konstant\n\nReihenschaltung:\n\nI ist konstant\nR = R¹ + R² + ... + Rn\n\nI = U/R",
+			"file": "ITS - Schier/2017-10-05",
+			"file_size": 213,
+			"file_write_time": 131528862306840563,
+			"settings":
+			{
+				"buffer_size": 210,
 				"line_ending": "Unix"
 			}
 		}
@@ -133,11 +153,11 @@
 	"expanded_folders":
 	[
 		"/home/david/Documents/ITF17a",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files"
+		"/home/david/Documents/ITF17a/ITS - Schier"
 	],
 	"file_history":
 	[
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-05",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program/darlehen.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Tests/darlehen_test.py",
 		"/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
@@ -230,24 +250,80 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"file": "ITS - Schier/2017-10-19",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24,
-								24
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ITS - Schier/2017-10-12",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ITS - Schier/2017-10-05",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
 							]
 						],
 						"settings":
@@ -297,7 +373,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 292.0
+		"height": 122.0
 	},
 	"output.find_results":
 	{
