@@ -1,0 +1,36 @@
+Lastenheft zum Annuitäts-Darlehens-Rechner
+
+Es soll ein Programm erstellt werden, welches zur Errechnung eines annuitäts Darlehens, basierend auf der Eingabe von Kreditsumme, Laufzeit und Zinssatz, genutzt werden kann.
+
+Der Verbraucherschutzverein HerrAdams&Partners möcht seinen Beratern eine Software zur ermittlung der zwei oben genannten Darlehensformel zur verfügung stellen, und den Support des Verbrauchers möglichst problemlos durchführen zu können.
+
+Requirements:
+	1.) Muss annuitäts Darlehen fachlich korrekt errechnen können 	(Quelle Wikipedia)
+		- ./FormelAnnuDarlehen.png
+		- ./FormelAnnudarlehenSonderwerte.png
+	2.) Darf keine Negativen Werte als Eingabe annehmen
+	3.) Darf keine Nicht-Numerischen Werte als Eingabe annehmen
+	4.) Darf keine Null-Werte als Eingabe annehmen
+	5.) Gibt die berechneten Ergebnisse aus
+	6.) Falsche Eingaben führen zu aufschlussreichen Fehlermeldungen
+	7.) Die Ergebnisse werden detalliert aufgearbeitet und lokalisiert Dargestellt
+
+MUSS- und KANN-Kriterien für die Abnahme dur einen Test:
+	MUSS:
+		- 100% Testabdeckung aufweisen
+		- Den zuvor angegebenen Formeln entsprechende Ergebnisse Liefern
+		- Keine negativen, null oder nicht-numerischen Werte annehmen
+		- Gibt berechnete Ergebnisse aus
+	KANN:
+		- Eingabe von negativen oder nicht-numerischen Werten führt zu aufschlussreicher Fehlermeldung und fordert zur neueingabe auf
+		- Gut formatierte und lokalisierte Ausgabe der Ergebnisse
+		- Option für detaillierte Ausgabe der Ergebnisse(Mit Ratengröße etc)
+
+Meilensteinplan:
+	2.2.2018 - Meeting zur Besprechung und Erläuterung der Formeln an die Programmierer
+	2.2.2019 - Beginn der Programmierphase
+	2.2.2020 - Meeting zur Besprechung des Programmierverlaufs
+	2.2.2021 - Umsetzung der in den Meetings besprochenen Themen
+	2.2.2022 - Testphase
+	2.1.2023 - Auslieferung an den Kunden
+	2.2.2023 - Fertigstellung des Projektes

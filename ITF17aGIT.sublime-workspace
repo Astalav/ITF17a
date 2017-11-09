@@ -36,30 +36,11 @@
 	"buffers":
 	[
 		{
-			"file": "ITS - Schier/2017-10-19",
+			"file": "Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program/darlehen.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 60,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ITS - Schier/2017-10-12",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Parallelschaltung:\n\nI = I¹ + I² + I³ + ...\nR = 1 / (1/R¹ + 1/R² + ...)\nR = (R¹*R²)/(R¹+R²)\t\t\t// Wenn nur 2 parallele Wiederstände\nU ist konstant\n\nReihenschaltung:\n\nI ist konstant\nR = R¹ + R² + ... + Rn\n\nI = U/R",
-			"file": "ITS - Schier/2017-10-05",
-			"file_size": 213,
-			"file_write_time": 131528862306840563,
-			"settings":
-			{
-				"buffer_size": 210,
 				"line_ending": "Unix"
 			}
 		}
@@ -153,10 +134,16 @@
 	"expanded_folders":
 	[
 		"/home/david/Documents/ITF17a",
-		"/home/david/Documents/ITF17a/ITS - Schier"
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program"
 	],
 	"file_history":
 	[
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/AnnuitätsDarlehenRechner.sublime-project",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-19",
+		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-12",
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-05",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program/darlehen.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Tests/darlehen_test.py",
@@ -176,7 +163,6 @@
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Notizen/2017-10-12",
 		"/home/david/Documents/ITF17a/ITS - Schreiber/2017-10-12",
 		"/home/david/Documents/ITF17a/Python/Darlehen/darlehen.py",
-		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-12",
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-05.txt",
 		"/home/david/Documents/ITF17a/ITS - Schreiber/2017-10-05.txt",
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-09-14.txt",
@@ -211,7 +197,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -250,85 +236,30 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "ITS - Schier/2017-10-19",
+					"file": "Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program/darlehen.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 60,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								60,
+								60
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "ITS - Schier/2017-10-12",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "ITS - Schier/2017-10-05",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 210,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								210,
-								210
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -342,7 +273,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -383,7 +314,7 @@
 	"project": "ITF17aGIT.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -425,7 +356,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 212.0,
+	"side_bar_width": 241.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
