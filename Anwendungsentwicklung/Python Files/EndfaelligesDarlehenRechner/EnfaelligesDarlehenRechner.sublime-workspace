@@ -97,7 +97,7 @@
 			]
 		]
 	],
-	"build_varint": "Run Test",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 97.0,
@@ -137,6 +137,7 @@
 	},
 	"expanded_folders":
 	[
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner"
 	],
 	"file_history":
 	[
@@ -248,8 +249,8 @@
 						"selection":
 						[
 							[
-								391,
-								391
+								989,
+								1336
 							]
 						],
 						"settings":
@@ -258,7 +259,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -330,7 +331,7 @@
 		[
 			[
 				"",
-				"~/Documents/ITF17a/ITF17aGIT.sublime-project"
+				"~/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/AnnuitätsDarlehenRechner.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"maxAsWarning"
+			],
+			[
+				"min",
+				"minValue"
+			],
+			[
+				"in",
+				"inputString"
+			],
+			[
 				"lin",
 				"line2n6"
 			],
@@ -43,11 +55,36 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "Program/annuDarlehen.py",
+			"settings":
+			{
+				"buffer_size": 2073,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/User/PythonCustomBuild.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/User/PythonCustomBuild.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PythonCustomBuild.sublime-build",
+					"Run Test"
+				]
+			],
+			[
+				"Packages/User/PythonCustomBuild.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -86,7 +123,8 @@
 	"expanded_folders":
 	[
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Lastenheft"
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Lastenheft",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program"
 	],
 	"file_history":
 	[
@@ -178,7 +216,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -207,8 +245,43 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Program/annuDarlehen.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"file": "Lastenheft/FormelAnnuDarlehen.png",
+					"semi_transient": true,
+					"stack_index": 2,
+					"type": "image"
 				}
 			]
 		}
@@ -244,6 +317,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -272,7 +349,7 @@
 		[
 			[
 				"",
-				"~/Documents/ITF17a/ITF17aGIT.sublime-project"
+				"~/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/EnfaelligesDarlehenRechner.sublime-project"
 			]
 		],
 		"width": 380.0
