@@ -137,7 +137,8 @@
 	},
 	"expanded_folders":
 	[
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner"
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program"
 	],
 	"file_history":
 	[
@@ -194,7 +195,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -270,7 +271,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -311,7 +312,7 @@
 	"project": "EnfaelligesDarlehenRechner.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":

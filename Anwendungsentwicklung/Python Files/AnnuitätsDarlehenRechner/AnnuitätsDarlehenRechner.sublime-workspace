@@ -48,20 +48,19 @@
 	"buffers":
 	[
 		{
-			"file": "Lastenheft/Lastenheft.txt",
+			"file": "Program/annuDarlehen.py",
 			"settings":
 			{
-				"buffer_size": 1871,
+				"buffer_size": 2485,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Program/annuDarlehen.py",
+			"file": "Tests/darlehen_test.py",
 			"settings":
 			{
-				"buffer_size": 2073,
-				"encoding": "UTF-8",
+				"buffer_size": 221,
 				"line_ending": "Unix"
 			}
 		}
@@ -124,10 +123,12 @@
 	[
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Lastenheft",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program"
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Tests"
 	],
 	"file_history":
 	[
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Lastenheft/Lastenheft.txt",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Lastenheft.txt",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/AnnuitätsDarlehenRechner.sublime-project",
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-19",
@@ -221,28 +222,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Lastenheft/Lastenheft.txt",
+					"file": "Program/annuDarlehen.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1871,
+						"buffer_size": 2485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								936,
-								937
+								606,
+								606
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -250,25 +251,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Program/annuDarlehen.py",
-					"semi_transient": false,
+					"file": "Tests/darlehen_test.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2073,
+						"buffer_size": 221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								337,
-								337
+								95,
+								96
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -279,7 +279,7 @@
 				},
 				{
 					"file": "Lastenheft/FormelAnnuDarlehen.png",
-					"semi_transient": true,
+					"semi_transient": false,
 					"stack_index": 2,
 					"type": "image"
 				}
