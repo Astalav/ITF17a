@@ -51,7 +51,7 @@
 			"file": "Program/annuDarlehen.py",
 			"settings":
 			{
-				"buffer_size": 2485,
+				"buffer_size": 2541,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -60,7 +60,8 @@
 			"file": "Tests/darlehen_test.py",
 			"settings":
 			{
-				"buffer_size": 221,
+				"buffer_size": 215,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -81,7 +82,7 @@
 			],
 			[
 				"Packages/User/PythonCustomBuild.sublime-build",
-				""
+				"Run Test"
 			]
 		]
 	],
@@ -217,7 +218,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -226,15 +227,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2485,
+						"buffer_size": 2541,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								606,
-								606
+								1305,
+								1305
 							]
 						],
 						"settings":
@@ -243,27 +244,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "Tests/darlehen_test.py",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 221,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								96
+								165,
+								165
 							]
 						],
 						"settings":
@@ -274,7 +275,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -319,7 +320,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 114.0
+		"height": 255.0
 	},
 	"output.find_results":
 	{

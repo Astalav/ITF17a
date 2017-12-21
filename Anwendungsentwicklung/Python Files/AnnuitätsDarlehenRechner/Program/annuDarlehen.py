@@ -26,6 +26,7 @@ def run():
 			break
 	
 	print(locale.currency(calcAnnuDarlehen(creditSum, interest, time), grouping=True))
+	print("Goodbye")
 	return calcAnnuDarlehen(creditSum, interest, time)
 
 
@@ -41,23 +42,21 @@ def getUserDecimalInput(inputString, minValue=Decimal("-Infinity"), minAsWarning
 		print("Error: Your input was not a number! Please enter a number next time!")
 		return Decimal("NaN")
 
-	if userInputDecimal <= minValue:
+	if userInputDecimal < minValue:
 		if minAsWarning:
 			print("Warning: Your input was smaller than or equal to %s!"% minValue)
-			return Decimal(userInputDecimal)
 		else:
 			print("Error: Your input was smaller than or equal to %s! Please enter a valid number next time!"% minValue)
 			return Decimal("NaN")
 
-	if userInputDecimal >= maxValue:
+	if userInputDecimal > maxValue:
 		if maxAsWarning:
 			print("Warning: Your input was greater than or equal to %s!"% str(maxValue))
-			return Decimal(userInputDecimal)
 		else:
 			print("Error: Your input was greater than or equal to %s! Please enter a valid number next time!"% maxValue)
 			return Decimal(NaN)
 
-	return Decimal(userInputDecimal)
+	return userInputDecimal
 
 
 def welcomeMessage(size):
@@ -80,5 +79,3 @@ def welcomeMessage(size):
 	print(line5)
 	print(line2n6)
 	print(line1n7)
-
-run()
