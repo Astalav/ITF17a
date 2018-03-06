@@ -4,30 +4,35 @@ from decimal import *
 import locale
 import math
 
+
 def run():
 	welcomeMessage(20)
 
 	locale.setlocale(locale.LC_ALL, '')
 
 	while True:
-		creditSum = getUserDecimalInput("Please enter your credit sum: ", minValue=0)
-		if not math.isnan(creditSum):
-			break
+		while True:
+			creditSum = getUserDecimalInput("Please enter your credit sum: ", minValue=0)
+			if not math.isnan(creditSum):
+				break
 
-	while True:
-		interest = getUserDecimalInput("Please enter your interest in %: ", minValue=0, maxValue=10, maxAsWarning=True)
-		if not math.isnan(interest):
-			interest = interest/Decimal(100)
-			break
-			
-	while True:
-		time = getUserDecimalInput("Please enter the time your credit runs in years: ", minValue=0, maxValue=50, maxAsWarning=True)
-		if not math.isnan(time):
+		while True:
+			interest = getUserDecimalInput("Please enter your interest in %: ", minValue=0, maxValue=10, maxAsWarning=True)
+			if not math.isnan(interest):
+				interest = interest/Decimal(100)
+				break
+				
+		while True:
+			time = getUserDecimalInput("Please enter the time your credit runs in years: ", minValue=0, maxValue=50, maxAsWarning=True)
+			if not math.isnan(time):
+				break
+
+		print(locale.currency(calcAnnuDarlehen(creditSum, interest, time), grouping=True))
+
+		if input("Möchten sie eine weitere Rechnung starten?(Y/N): ") != "Y":
 			break
 	
-	print(locale.currency(calcAnnuDarlehen(creditSum, interest, time), grouping=True))
 	print("Goodbye")
-	return calcAnnuDarlehen(creditSum, interest, time)
 
 
 def calcAnnuDarlehen(creditSum, interest, time):

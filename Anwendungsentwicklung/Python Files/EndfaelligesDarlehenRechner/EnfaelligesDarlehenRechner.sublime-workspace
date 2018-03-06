@@ -97,7 +97,7 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Run Tests",
 	"command_palette":
 	{
 		"height": 97.0,
@@ -332,7 +332,7 @@
 		[
 			[
 				"",
-				"~/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/AnnuitätsDarlehenRechner.sublime-project"
+				"~/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/LogSim.sublime-project"
 			]
 		],
 		"width": 380.0

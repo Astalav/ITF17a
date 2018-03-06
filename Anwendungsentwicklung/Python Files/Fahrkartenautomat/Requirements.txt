@@ -1,0 +1,21 @@
+Requirements:
+
+Man kann einen Preis für das Ticket in den Automaten eingeben.
+	Der Preis muss >0 sein.
+	Der Preis muss ein "Decimal" mit maximal 2 Nachkommastellen sein.
+	Bei invalider Eingabe muss eine erneute Eingabe gefordert werden.
+
+Man kann einen bezahlten Geldbetrag in den Automaten eingeben.
+	Der Betrag muss >Preis sein.
+	Der Betrag muss ein "Decimal" mit maximal 2 Nachkommastellen sein.
+	Bei invalider Eingabe muss eine erneute Eingabe gefordert werden.
+
+Der Automat besitzt einen begrenzten Vorrat an Münzen und Scheinen.
+
+Der Automat gibt nach Eingabe des Preises und des Zahlbetrages das Ticket und ihm mögliches Wehchselgeld aus.
+	Das wechselgeld soll in möglichst großen Münzen und Scheinen zurückgegeben werden.
+	Sollte das Wechselgeld nicht genau ausgezahlt werden können sollte, wird eine Fehlermeldung ausgegeben.
+
+Der Automat gibt den Bestand der ihm noch verbleibenden Münzen und Scheinen aus.
+
+Am Ende wird gefragt, ob noch ein weiteres Ticket gekauft werden soll.
