@@ -64,20 +64,20 @@
 	"buffers":
 	[
 		{
-			"file": "Program/LogicalAnd.py",
+			"file": "Program/LogicalFunctions.py",
 			"settings":
 			{
-				"buffer_size": 485,
+				"buffer_size": 717,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "LogicalAnd.py"
 			}
 		},
 		{
-			"file": "Tests/LogicalAnd_Test.py",
+			"file": "Tests/test_LogicalAnd.py",
 			"settings":
 			{
-				"buffer_size": 305,
+				"buffer_size": 869,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "LogicalAndTest.py"
@@ -104,7 +104,7 @@
 			]
 		]
 	],
-	"build_varint": "Run Tests",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -248,19 +248,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Program/LogicalAnd.py",
+					"file": "Program/LogicalFunctions.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 485,
+						"buffer_size": 717,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								437,
+								437
 							]
 						],
 						"settings":
@@ -278,19 +278,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Tests/LogicalAnd_Test.py",
+					"file": "Tests/test_LogicalAnd.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 305,
+						"buffer_size": 869,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								305,
-								305
+								118,
+								134
 							]
 						],
 						"settings":
