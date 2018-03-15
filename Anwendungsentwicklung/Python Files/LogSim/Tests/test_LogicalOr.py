@@ -19,9 +19,9 @@ def testOutputFalse():
 	myAnd = LogicalOr(True, False, "FunnyName")
 	assert myAnd.output == True
 
-#def testOutputNone():
-#	myAnd = LogicalOr(True, "blöblö", "FunnyName")
-#	assert myAnd.output is None
+def testOutputNone():
+	myAnd = LogicalOr("vlöpdiböp", "blöblö", "FunnyName")
+	assert myAnd.output is None
 
 def testLogicalAndToString():
 	myAnd = LogicalOr(True, False, "FunnyName")
