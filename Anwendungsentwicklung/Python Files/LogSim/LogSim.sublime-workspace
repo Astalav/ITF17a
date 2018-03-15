@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"input0",
+				"input0"
+			],
+			[
+				"_inp",
+				"_input0"
+			],
+			[
 				"bin",
 				"binarySearchIntern"
 			],
@@ -67,7 +75,7 @@
 			"file": "Program/LogicalFunctions.py",
 			"settings":
 			{
-				"buffer_size": 717,
+				"buffer_size": 1045,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "LogicalAnd.py"
@@ -77,10 +85,18 @@
 			"file": "Tests/test_LogicalAnd.py",
 			"settings":
 			{
-				"buffer_size": 869,
+				"buffer_size": 801,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "LogicalAndTest.py"
+			}
+		},
+		{
+			"file": "/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -104,7 +120,7 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Run Tests",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -146,6 +162,7 @@
 	],
 	"file_history":
 	[
+		"/home/david/.config/sublime-text-3/Packages/User/python-test-suit.sublime-build",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program/__init__.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/Uebungen/Program/Uebungen.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/Uebungen/Fahrkartenautomat.sublime-project",
@@ -169,7 +186,6 @@
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program/__init__.py",
 		"/home/david/.config/sublime-text-3/Packages/Python/Python.sublime-build",
 		"/home/david/.config/sublime-text-3/Packages/User/python-test-suit.sublime-buildc",
-		"/home/david/.config/sublime-text-3/Packages/User/python-test-suit.sublime-build",
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-09-14",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/darlehen_test.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/darlehen.py",
@@ -252,15 +268,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 717,
+						"buffer_size": 1045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								437,
-								437
+								755,
+								755
 							]
 						],
 						"settings":
@@ -270,10 +286,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -282,15 +298,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 869,
+						"buffer_size": 801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								134
+								517,
+								517
 							]
 						],
 						"settings":
@@ -299,10 +315,39 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -341,7 +386,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 114.0
+		"height": 177.0
 	},
 	"output.find_results":
 	{

@@ -147,6 +147,7 @@
 	"expanded_folders":
 	[
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Tests"
 	],
 	"file_history":
@@ -243,7 +244,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -272,7 +273,7 @@
 						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -300,7 +301,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -316,8 +317,8 @@
 						"selection":
 						[
 							[
-								507,
-								507
+								185,
+								253
 							]
 						],
 						"settings":
@@ -328,7 +329,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

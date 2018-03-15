@@ -13,20 +13,16 @@ def testInit():
 
 def testOutputTrue():
 	myAnd = LogicalAnd(True, True, "FunnyName")
-	myAnd.execute()
 	assert myAnd.output == True
 
 def testOutputFalse():
 	myAnd = LogicalAnd(True, False, "FunnyName")
-	myAnd.execute()
 	assert myAnd.output == False
 
 def testOutputNone():
 	myAnd = LogicalAnd(True, "blöblö", "FunnyName")
-	myAnd.execute()
 	assert myAnd.output is None
 
 def testLogicalAndToString():
 	myAnd = LogicalAnd(True, False, "FunnyName")
-	myAnd.execute()
 	assert "[class: LogicalAnd; input0: True; input1: False; output: False; name: FunnyName;]" == str(myAnd)
