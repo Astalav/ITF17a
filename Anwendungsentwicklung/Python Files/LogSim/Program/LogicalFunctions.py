@@ -74,7 +74,9 @@ class LogicalOr:
 		return
 
 	def __execute(self):
-		if self.__input0 == True or self.__input1 == True:
+		if self.__input0 == True:
+			self.__output = True
+		elif self.__input1 == True:
 			self.__output = True
 		elif self.__input0 == self.__input1 == False:
 			self.__output = False
