@@ -9,7 +9,7 @@ class LogicalGate(ABC):
 		self._input0 = input0
 		self._input1 = input1
 		self._output = None
-		
+
 		if name == None:
 			self.name = self.__class__.__name__
 		else:
@@ -80,9 +80,11 @@ class LogicalOr(LogicalGate):
 
 class LogicalXor(LogicalGate):
 	def _execute(self):
-		if (self._input0 == True and self._input1 == False) or (self._input0 == False and self._input1 == True):
+		if (self._input0 == True  and self._input1 == False) \
+		or (self._input0 == False and self._input1 == True):
 			self._output = True
-		elif (self._input1 == self._input0 == True) or (self._input1 == self._input0 == False):
+		elif (self._input1 == self._input0 == True) \
+		or   (self._input1 == self._input0 == False):
 			self._output = False
 		else:
 			self._output = None
