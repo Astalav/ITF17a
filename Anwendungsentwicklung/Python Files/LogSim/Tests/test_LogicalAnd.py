@@ -13,13 +13,21 @@ def testInit():
 	assert myAnd.input1 == True
 	assert myAnd.name == "FunnyName"
 
-def testOutputTrue():
-	myAnd = LogicalAnd(True, True, "FunnyName")
-	assert myAnd.output == True
+def testOutput00():
+	myAnd = LogicalAnd(False, False, "FunnyName")
+	assert myAnd.output == False
 
-def testOutputFalse():
+def testOutput01():
+	myAnd = LogicalAnd(False, True, "FunnyName")
+	assert myAnd.output == False
+
+def testOutput10():
 	myAnd = LogicalAnd(True, False, "FunnyName")
 	assert myAnd.output == False
+
+def testOutput11():
+	myAnd = LogicalAnd(True, True, "FunnyName")
+	assert myAnd.output == True
 
 def testOutputNone():
 	myAnd = LogicalAnd(True, "blöblö", "FunnyName")

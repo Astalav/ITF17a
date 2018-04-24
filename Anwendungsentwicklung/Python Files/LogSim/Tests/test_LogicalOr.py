@@ -11,12 +11,20 @@ def testInit():
 	assert myAnd.input1 == True
 	assert myAnd.name == "FunnyName"
 
-def testOutputTrue():
-	myAnd = LogicalOr(True, True, "FunnyName")
+def testOutput00():
+	myAnd = LogicalOr(False, False, "FunnyName")
+	assert myAnd.output == False
+
+def testOutput01():
+	myAnd = LogicalOr(False, True, "FunnyName")
 	assert myAnd.output == True
 
-def testOutputFalse():
+def testOutput10():
 	myAnd = LogicalOr(True, False, "FunnyName")
+	assert myAnd.output == True
+
+def testOutput11():
+	myAnd = LogicalOr(True, True, "FunnyName")
 	assert myAnd.output == True
 
 def testOutputNone():
