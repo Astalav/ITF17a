@@ -5,11 +5,23 @@ __version__ = "1.1"
 __author__ = "Astalav"
 
 class LogicalGate(ABC):
+	def __init__(self, input0 = None, input1 = None, name = None):
+		self._input0 = input0
+		self._input1 = input1
+		self._output = None
+		
+		if name == None:
+			self.name = self.__class__.__name__
+		else:
+			self.name = name
+
+		self._execute()
+
 	def __str__(self):
 		return "[class: " + self.__class__.__name__ + \
-				"; input0: " + str(self.input0) + \
-				"; input1: " + str(self.input1) + \
-				"; output: " + str(self.output) + \
+				"; input0: " + str(self._input0) + \
+				"; input1: " + str(self._input1) + \
+				"; output: " + str(self._output) + \
 				"; name: " + str(self.name) + ";]"
 
 	def show(self):
@@ -44,13 +56,6 @@ class LogicalGate(ABC):
 
 
 class LogicalAnd(LogicalGate):
-	def __init__(self, input0 = None, input1 = None, name = "AND"):
-		self._input0 = input0
-		self._input1 = input1
-		self._output = None
-		self.name = name
-		self._execute()
-
 	def _execute(self):
 		if self._input0 == False or self._input1 == False:
 			self._output = False
@@ -62,13 +67,6 @@ class LogicalAnd(LogicalGate):
 
 
 class LogicalOr(LogicalGate):
-	def __init__(self, input0 = None, input1 = None, name = "OR"):
-		self._input0 = input0
-		self._input1 = input1
-		self._output = None
-		self.name = name
-		self._execute()
-
 	def _execute(self):
 		if self._input0 == True:
 			self._output = True
@@ -81,13 +79,6 @@ class LogicalOr(LogicalGate):
 		return
 
 class LogicalXor(LogicalGate):
-	def __init__(self, input0 = None, input1 = None, name = "XOR"):
-		self._input0 = input0
-		self._input1 = input1
-		self._output = None
-		self.name = name
-		self._execute()
-
 	def _execute(self):
 		if (self._input0 == True and self._input1 == False) or (self._input0 == False and self._input1 == True):
 			self._output = True
