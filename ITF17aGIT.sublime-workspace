@@ -35,24 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program/darlehen.py",
-			"settings":
-			{
-				"buffer_size": 60,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ITS - Schier/2017-09-07",
-			"settings":
-			{
-				"buffer_size": 208,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/PythonCustomBuild.sublime-build",
 	"build_system_choices":
@@ -106,7 +88,7 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Run Tests",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -147,6 +129,8 @@
 	],
 	"file_history":
 	[
+		"/home/david/Documents/ITF17a/.gitignore",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program/darlehen.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/AnnuitätsDarlehenRechner.sublime-project",
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-19",
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-12",
@@ -155,7 +139,6 @@
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Tests/darlehen_test.py",
 		"/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/EnfaelligesDarlehenRechner.sublime-project",
-		"/home/david/Documents/ITF17a/.gitignore",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/__init__123.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program/__init__.py",
 		"/home/david/.config/sublime-text-3/Packages/Python/Python.sublime-build",
@@ -203,7 +186,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -242,72 +225,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/Program/darlehen.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 60,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								60,
-								60
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "ITS - Schier/2017-09-07",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 208,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -348,7 +273,7 @@
 	"project": "ITF17aGIT.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -368,7 +293,7 @@
 		[
 			[
 				"",
-				"~/Documents/ITF17a/Anwendungsentwicklung/Python Files/AnnuitätsDarlehenRechner/AnnuitätsDarlehenRechner.sublime-project"
+				"~/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/LogSim.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -5,6 +5,8 @@ os.sys.path.append(os.path.realpath(os.path.dirname(__file__)+ "/../Program"))
 from LogicalFunctions import LogicalAnd
 import pytest
 
+print("bla")
+
 def testInit():
 	myAnd = LogicalAnd(True, True, "FunnyName")
 	assert myAnd.input0 == True

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"inp",
+				"input1"
+			],
+			[
+				"in",
+				"input1"
+			],
+			[
+				"_in",
+				"_input1"
+			],
+			[
+				"Logi",
+				"LogicalGate"
+			],
+			[
 				"input0",
 				"input0"
 			],
@@ -40,10 +56,6 @@
 				"minValue"
 			],
 			[
-				"in",
-				"inputString"
-			],
-			[
 				"lin",
 				"line2n6"
 			],
@@ -72,37 +84,52 @@
 	"buffers":
 	[
 		{
+			"file": "/home/david/.config/sublime-text-3/Packages/User/MyPythonBuild.sublime-build",
+			"settings":
+			{
+				"buffer_size": 199,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "Program/LogicalFunctions.py",
 			"settings":
 			{
-				"buffer_size": 1045,
+				"buffer_size": 2137,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "LogicalAnd.py"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "Tests/test_LogicalAnd.py",
 			"settings":
 			{
-				"buffer_size": 801,
+				"buffer_size": 815,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "LogicalAndTest.py"
-			}
-		},
-		{
-			"file": "/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
-			"settings":
-			{
-				"buffer_size": 206,
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Packages/User/PythonCustomBuild.sublime-build",
+	"build_system": "Packages/User/MyPythonBuild.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/User/MyPythonBuild.sublime-build",
+					""
+				],
+				[
+					"Packages/User/MyPythonBuild.sublime-build",
+					"Run Tests"
+				]
+			],
+			[
+				"Packages/User/MyPythonBuild.sublime-build",
+				"Run Tests"
+			]
+		],
 		[
 			[
 				[
@@ -158,10 +185,18 @@
 	[
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests"
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/UML-Classdiagrams"
 	],
 	"file_history":
 	[
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/UML-Classdiagrams/LogicalOr.png",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/UML-Classdiagrams/LogicalAnd.png",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program/LogicalFunctions.py",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis/LogicalOr/Schatzeichen_LogicalOr.png",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis/LogicalAnd/Schaltzeichen_LogicalAnd.png",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests/test_LogicalAnd.py",
+		"/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
 		"/home/david/.config/sublime-text-3/Packages/User/python-test-suit.sublime-build",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program/__init__.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/Uebungen/Program/Uebungen.py",
@@ -179,7 +214,6 @@
 		"/home/david/Documents/ITF17a/ITS - Schier/2017-10-05",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Program/darlehen.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/Tests/darlehen_test.py",
-		"/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/EnfaelligesDarlehenRechner.sublime-project",
 		"/home/david/Documents/ITF17a/.gitignore",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/EndfaelligesDarlehenRechner/__init__123.py",
@@ -264,58 +298,56 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Program/LogicalFunctions.py",
+					"file": "/home/david/.config/sublime-text-3/Packages/User/MyPythonBuild.sublime-build",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1045,
+						"buffer_size": 199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								755,
-								755
+								139,
+								139
 							]
 						],
 						"settings":
 						{
-							"auto_name": "LogicalAnd.py",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Tests/test_LogicalAnd.py",
+					"file": "Program/LogicalFunctions.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 801,
+						"buffer_size": 2137,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								517,
-								517
+								703,
+								703
 							]
 						],
 						"settings":
 						{
-							"auto_name": "LogicalAndTest.py",
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -323,31 +355,31 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/home/david/.config/sublime-text-3/Packages/User/PythonCustomBuild.sublime-build",
+					"file": "Tests/test_LogicalAnd.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 206,
+						"buffer_size": 815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								144,
-								154
+								197,
+								197
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -392,7 +424,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/PythonCustomBuild.sublime-build",
+	"pinned_build_system": "Packages/User/MyPythonBuild.sublime-build",
 	"project": "LogSim.sublime-project",
 	"replace":
 	{
