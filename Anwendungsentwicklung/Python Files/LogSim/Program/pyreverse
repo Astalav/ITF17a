@@ -1,0 +1,1 @@
+pyreverse -o png -f ALL -A -p LogicalFunctions "/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program/"
