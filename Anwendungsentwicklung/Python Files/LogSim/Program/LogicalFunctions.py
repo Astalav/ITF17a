@@ -6,14 +6,14 @@ __author__ = "Astalav"
 
 class LogicalGate(ABC):
 	def __init__(self, input0 = None, input1 = None, name = None):
-		self.__input0 = input0
-		self.__input1 = input1
-		self._output = None
+		self.__input0 = input0 	# bool
+		self.__input1 = input1 	# bool
+		self._output = None 	# bool
 
 		if name == None:
 			self.name = self.__class__.__name__
 		else:
-			self.name = name
+			self.name = name # string
 
 		self._execute()
 
