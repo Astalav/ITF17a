@@ -20,7 +20,7 @@ class LogicalGate(ABC):
 				"; name: " + str(self.name) + ";]"
 
 	def show(self):
-		print(str(output))
+		print(str(self._output))
 		return
 
 	@abstractmethod
