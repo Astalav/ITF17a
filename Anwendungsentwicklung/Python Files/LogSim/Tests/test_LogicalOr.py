@@ -6,31 +6,39 @@ from LogicalFunctions import LogicalOr
 import pytest
 
 def testInit():
-	myAnd = LogicalOr(True, True, "FunnyName")
-	assert myAnd.input0 == True
-	assert myAnd.input1 == True
+	myAnd = LogicalOr("FunnyName", True, True)
+	assert myAnd.getInput(0) == True
+	assert myAnd.getInput(1) == True
 	assert myAnd.name == "FunnyName"
 
 def testOutput00():
-	myAnd = LogicalOr(False, False, "FunnyName")
-	assert myAnd.output == False
+	myAnd = LogicalOr("FunnyName", False, False)
+	assert myAnd.getOutput() == False
 
 def testOutput01():
-	myAnd = LogicalOr(False, True, "FunnyName")
-	assert myAnd.output == True
+	myAnd = LogicalOr("FunnyName", False, True)
+	assert myAnd.getOutput() == True
 
 def testOutput10():
-	myAnd = LogicalOr(True, False, "FunnyName")
-	assert myAnd.output == True
+	myAnd = LogicalOr("FunnyName", True, False)
+	assert myAnd.getOutput() == True
 
 def testOutput11():
-	myAnd = LogicalOr(True, True, "FunnyName")
-	assert myAnd.output == True
+	myAnd = LogicalOr("FunnyName", True, True)
+	assert myAnd.getOutput() == True
 
 def testOutputNone():
-	myAnd = LogicalOr("vlöpdiböp", "blöblö", "FunnyName")
-	assert myAnd.output is None
+	myAnd = LogicalOr("FunnyName", "vlöpdiböp", "blöblö")
+	assert myAnd.getOutput() is None
+
+def testOutput5InputsTrue():
+	myAnd = LogicalOr("FunnyName", True, True, False, True, False)
+	assert myAnd.getOutput() == True
+
+def testOutput5InputsFalse():
+	myAnd = LogicalOr("FunnyName", False, False, False, False, False)
+	assert myAnd.getOutput() == False
 
 def testLogicalAndToString():
-	myAnd = LogicalOr(True, False, "FunnyName")
-	assert "[class: LogicalOr; input0: True; input1: False; output: True; name: FunnyName;]" == str(myAnd)
+	myAnd = LogicalOr("FunnyName", True, False)
+	assert "[class: LogicalOr; name: FunnyName;]" == str(myAnd)

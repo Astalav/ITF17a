@@ -8,31 +8,39 @@ import pytest
 print("bla")
 
 def testInit():
-	myAnd = LogicalNand(True, True, "FunnyName")
-	assert myAnd.input0 == True
-	assert myAnd.input1 == True
+	myAnd = LogicalNand("FunnyName", True, True)
+	assert myAnd.getInput(0) == True
+	assert myAnd.getInput(1) == True
 	assert myAnd.name == "FunnyName"
 
 def testOutput00():
-	myAnd = LogicalNand(False, False, "FunnyName")
-	assert myAnd.output == True
+	myAnd = LogicalNand("FunnyName",False, False)
+	assert myAnd.getOutput() == True
 
 def testOutput01():
-	myAnd = LogicalNand(False, True, "FunnyName")
-	assert myAnd.output == True
+	myAnd = LogicalNand("FunnyName",False, True)
+	assert myAnd.getOutput() == True
 
 def testOutput10():
-	myAnd = LogicalNand(True, False, "FunnyName")
-	assert myAnd.output == True
+	myAnd = LogicalNand("FunnyName",True, False)
+	assert myAnd.getOutput() == True
 
 def testOutput11():
-	myAnd = LogicalNand(True, True, "FunnyName")
-	assert myAnd.output == False
+	myAnd = LogicalNand("FunnyName",True, True)
+	assert myAnd.getOutput() == False
 
 def testOutputNone():
-	myAnd = LogicalNand(True, "blöblö", "FunnyName")
-	assert myAnd.output is None
+	myAnd = LogicalNand("FunnyName",True, "blöblö")
+	assert myAnd.getOutput() is None
+
+def testOutput5InputsTrue():
+	myAnd = LogicalNand("FunnyName", True, False, True, False, True)
+	assert myAnd.getOutput() == True
+
+def testOutput5InputsFalse():
+	myAnd = LogicalNand("FunnyName", True, True, True, True, True)
+	assert myAnd.getOutput() == False
 
 def testLogicalAndToString():
-	myAnd = LogicalNand(True, False, "FunnyName")
-	assert "[class: LogicalNand; input0: True; input1: False; output: True; name: FunnyName;]" == str(myAnd)
+	myAnd = LogicalNand("FunnyName", True, False)
+	assert "[class: LogicalNand; name: FunnyName;]" == str(myAnd)

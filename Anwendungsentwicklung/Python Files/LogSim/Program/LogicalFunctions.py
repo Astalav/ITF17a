@@ -1,27 +1,22 @@
 # -*- coding: utf8 -*-
 from abc import ABC, abstractmethod
+import types
 
-__version__ = "1.1"
+__version__ = "1.3.1.6"
 __author__ = "Astalav"
 
 class LogicalGate(ABC):
-	def __init__(self, input0 = None, input1 = None, name = None):
-		self.__input0 = input0 	# bool
-		self.__input1 = input1 	# bool
-		self._output = None 	# bool
+	def __init__(self, name = None, *bools):
+		self._input = []
+		self.setInput(*bools)
 
 		if name == None:
 			self.name = self.__class__.__name__
 		else:
 			self.name = name # string
 
-		self._execute()
-
 	def __str__(self):
 		return "[class: " + self.__class__.__name__ + \
-				"; input0: " + str(self.__input0) + \
-				"; input1: " + str(self.__input1) + \
-				"; output: " + str(self._output) + \
 				"; name: " + str(self.name) + ";]"
 
 	def show(self):
@@ -32,70 +27,70 @@ class LogicalGate(ABC):
 	def _execute(self):
 		pass
 
-	@property
-	def input0(self):
-		return self.__input0
+	def setInput(self, *bools):
+		for boolVal in bools:
+			if not isinstance(boolVal, bool):
+				self.__output = None
+				return
 
-	@input0.setter
-	def input0(self, value):
-		self.__input0 = value
+		self._input = bools
 		self._execute()
 
-	@property
-	def input1(self):
-		return self.__input1
+	def _setOutput(self, *bools):
+		self.__output = bools
 
-	@input1.setter
-	def input1(self, value):
-		self.__input1 = value
-		self._execute()
+	def getInputList(self):
+		return self._input
 
-	@property
-	def output(self):
-		return self._output
+	def getOutputList(self):
+		return self.__output
+
+	def getOutput(self, getAt = 0):
+		if not isinstance(self.__output, type(None)):
+			return self.__output[getAt]
+		return None
+
+	def getInput(self, getAt = 0):
+		return self._input[getAt]
 
 
 class LogicalAnd(LogicalGate):
 	def _execute(self):
-		if self.input0 == False or self.input1 == False:
-			self._output = False
-		elif self.input0 == self.input1 == True:
-			self._output = True
-		else:
-			self._output = None
-		return
+		output = True
+		for boolVal in self._input:
+			if boolVal == False:
+				output = False
+				break
 
+		self._setOutput(output)
 
 class LogicalOr(LogicalGate):
 	def _execute(self):
-		if self.input0 == True:
-			self._output = True
-		elif self.input1 == True:
-			self._output = True
-		elif self.input0 == self.input1 == False:
-			self._output = False
-		else:
-			self._output = None
-		return
+		output = False
+
+		for boolVal in self._input:
+			if boolVal == True and output == False:
+				output = True
+				break
+
+		self._setOutput(output)
 
 class LogicalXor(LogicalGate):
 	def _execute(self):
-		if (self.input0 == True  and self.input1 == False) \
-		or (self.input0 == False and self.input1 == True):
-			self._output = True
-		elif (self.input1 == self.input0 == True) \
-		or   (self.input1 == self.input0 == False):
-			self._output = False
-		else:
-			self._output = None
-		return
+		output = False
+
+		for boolVal in self._input:
+			if boolVal == True:
+				output = not output
+
+		self._setOutput(output)
 
 class LogicalNand(LogicalGate):
 	def _execute(self):
-		if self.input0 == False or self.input1 == False:
-			self._output = True
-		elif self.input0 == self.input1 == True:
-			self._output = False
-		else:
-			self._output = None
-		return
+		output = False
+		for boolVal in self._input:
+			if boolVal == False:
+				output = True
+				break
+
+		self._setOutput(output)
