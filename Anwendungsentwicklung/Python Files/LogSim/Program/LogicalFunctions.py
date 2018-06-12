@@ -36,6 +36,9 @@ class LogicalGate(ABC):
 		self._input = bools
 		self._execute()
 
+	def _setOutputInvalid(self):
+		self.__output = None
+
 	def _setOutput(self, *bools):
 		self.__output = bools
 
@@ -94,3 +97,22 @@ class LogicalNand(LogicalGate):
 				break
 
 		self._setOutput(output)
+
+class LogicalHalfAdder(LogicalGate):
+	def _execute(self):
+		logXOR = LogicalXor("xor", self._input[0], self._input[1])
+		logAND = LogicalAnd("and", self._input[0], self._input[1])
+
+		self._setOutput(logXOR.getOutput(), logAND.getOutput())
+
+	def setInput(self, *bools):
+		if len(bools) == 2:
+			super(LogicalHalfAdder, self).setInput(*bools)
+		else:
+			self._setOutputInvalid()
+
+	def getSum(self):
+		return self.getOutput()
+
+	def getOverload(self):
+		return self.getOutput(1)
