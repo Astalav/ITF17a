@@ -14,32 +14,37 @@ def testInit():
 def testOutput00():
 	myHalfAdder = LogicalHalfAdder("FunnyName", False, False)
 	assert myHalfAdder.getSum() == False
-	assert myHalfAdder.getOverload() == False
+	assert myHalfAdder.getCarry() == False
 
 def testOutput01():
 	myHalfAdder = LogicalHalfAdder("FunnyName", False, True)
 	assert myHalfAdder.getSum() == True
-	assert myHalfAdder.getOverload() == False
+	assert myHalfAdder.getCarry() == False
 
 def testOutput10():
 	myHalfAdder = LogicalHalfAdder("FunnyName", True, False)
 	assert myHalfAdder.getSum() == True
-	assert myHalfAdder.getOverload() == False
+	assert myHalfAdder.getCarry() == False
 
 def testOutput11():
 	myHalfAdder = LogicalHalfAdder("FunnyName", True, True)
 	assert myHalfAdder.getSum() == False
-	assert myHalfAdder.getOverload() == True
+	assert myHalfAdder.getCarry() == True
 
 def testOutputInvalidInputCount1():
 	myHalfAdder = LogicalHalfAdder("FunnyName", True)
 	assert myHalfAdder.getSum() == None
-	assert myHalfAdder.getOverload() == None
+	assert myHalfAdder.getCarry() == None
 
 def testOutputInvalidInputCount2():
 	myHalfAdder = LogicalHalfAdder("FunnyName", True, True, True)
 	assert myHalfAdder.getSum() == None
-	assert myHalfAdder.getOverload() == None
+	assert myHalfAdder.getCarry() == None
+
+def testOutputInvalidInputFormat():
+	myHalfAdder = LogicalHalfAdder("FunnyName", "bla", "bli")
+	assert myHalfAdder.getSum() == None
+	assert myHalfAdder.getCarry() == None
 
 def testLogicalAndToString():
 	myHalfAdder = LogicalHalfAdder("FunnyName", True, False)

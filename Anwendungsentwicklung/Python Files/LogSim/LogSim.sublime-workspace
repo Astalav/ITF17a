@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getOutput"
+			],
+			[
+				"logH",
+				"logHA2"
+			],
+			[
+				"log",
+				"logHA2"
+			],
+			[
+				"Log",
+				"LogicalOr"
+			],
+			[
+				"Lo",
+				"LogicalAnd"
+			],
+			[
+				"Logi",
+				"LogicalXor"
+			],
+			[
 				"boo",
 				"boolVal"
 			],
@@ -26,10 +50,6 @@
 			[
 				"_in",
 				"_input1"
-			],
-			[
-				"Logi",
-				"LogicalGate"
 			],
 			[
 				"input0",
@@ -99,16 +119,16 @@
 			"file": "Program/LogicalFunctions.py",
 			"settings":
 			{
-				"buffer_size": 1777,
+				"buffer_size": 3252,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Tests/test_LogicalAnd.py",
+			"file": "Tests/test_LogicalHalfAdder.py",
 			"settings":
 			{
-				"buffer_size": 1238,
+				"buffer_size": 1666,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -177,7 +197,7 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Run Tests",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -214,11 +234,16 @@
 	"expanded_folders":
 	[
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis/LogicalHalfAdder",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis/LogicalOr",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests"
 	],
 	"file_history":
 	[
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis/LogicalHalfAdder/Truth_Table.txt",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program/HalfAdder.py",
 		"/home/david/.config/sublime-text-3/Packages/User/MyPythonBuild.sublime-build",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests/test_LogicalNand.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests/test_LogicalOr.py",
@@ -335,15 +360,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1777,
+						"buffer_size": 3252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								759,
-								759
+								2281,
+								2281
 							]
 						],
 						"settings":
@@ -352,7 +377,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1710.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -360,19 +385,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Tests/test_LogicalAnd.py",
+					"file": "Tests/test_LogicalHalfAdder.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1238,
+						"buffer_size": 1666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								872,
-								872
+								1493,
+								1493
 							]
 						],
 						"settings":
@@ -381,7 +406,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -483,7 +508,7 @@
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 39.0
 	},
 	"layout":
 	{
