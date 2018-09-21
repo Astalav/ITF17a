@@ -1,5 +1,6 @@
 # -*- coding: utf8 -*-
 from abc import ABC, abstractmethod
+#from ShowStrategy import * 
 import types
 
 __version__ = "1.3.1.6"
@@ -13,15 +14,15 @@ class LogicalGate(ABC):
 		if name == None:
 			self.name = self.__class__.__name__
 		else:
-			self.name = name # string
+			self.name = name
+		#self._showClass = ShowEasy()
 
 	def __str__(self):
 		return "[class: " + self.__class__.__name__ + \
 				"; name: " + str(self.name) + ";]"
 
 	def show(self):
-		print(str(self._output))
-		return
+		return self._showClass.show(self)
 
 	@abstractmethod
 	def _execute(self):
@@ -38,7 +39,7 @@ class LogicalGate(ABC):
 				return
 
 		self._input = bools
-		print("Class: " + self.__class__.__name__ + " || Input: " + str(self.getInputList()))
+		#print("Class: " + self.__class__.__name__ + " || Input: " + str(self.getInputList()))
 		self._execute()
 
 	def _setOutputInvalid(self):
@@ -170,10 +171,10 @@ class Logical4BitAdder(LogicalGate):
 		self.__logFA3.setInput(self.__logFA2.getCarry(), self._input[2], self._input[6])
 		self.__logFA4.setInput(self.__logFA3.getCarry(), self._input[3], self._input[7])
 
-		self._setOutput(self.__logFA1.getSum(),
-						self.__logFA2.getSum(),
+		self._setOutput(self.__logFA4.getSum(),
 						self.__logFA3.getSum(),
-						self.__logFA4.getSum(),
+						self.__logFA2.getSum(),
+						self.__logFA1.getSum(),
 						self.__logFA4.getCarry())
 
 	def setInput(self, *bools):
@@ -202,33 +203,36 @@ class Logical8BitAdder(LogicalGate):
 		super(Logical8BitAdder, self).__init__(name, *bools)
 
 	def _execute(self):
-		self.__log4BA1.setInput(self._input[0], 
-								 self._input[1], 
-								 self._input[2], 
-								 self._input[3],
-								 self._input[8], 
-								 self._input[9], 
-								 self._input[10], 
-								 self._input[11],
-								 self.__carryIn)
-		self.__log4BA2.setInput(self._input[4], 
-								 self._input[5], 
-								 self._input[6], 
-								 self._input[7],
-								 self._input[12], 
-								 self._input[13], 
+		self.__log4BA1.setInput(self._input[15], 
 								 self._input[14], 
-								 self._input[15],
-								 self.__log4BA1.getCarry())
+								 self._input[13], 
+								 self._input[12], 
+								 self._input[7],
+								 self._input[6], 
+								 self._input[5], 
+								 self._input[4],
+								 self.__carryIn)
 
-		self._setOutput(self.__log4BA1.getSum(0),
-						self.__log4BA1.getSum(1),
-						self.__log4BA1.getSum(2),
-						self.__log4BA1.getSum(3),
-						self.__log4BA2.getSum(0),
+		self.__log4BA2.setInput(self._input[11], 
+								 self._input[10], 
+								 self._input[9], 
+								 self._input[8], 
+								 self._input[3],
+								 self._input[2], 
+								 self._input[1], 
+								 self._input[0],
+								 self.__log4BA1.getCarry())
+								 
+		
+
+		self._setOutput(self.__log4BA2.getSum(0),
 						self.__log4BA2.getSum(1),
 						self.__log4BA2.getSum(2),
 						self.__log4BA2.getSum(3),
+						self.__log4BA1.getSum(0),
+						self.__log4BA1.getSum(1),
+						self.__log4BA1.getSum(2),
+						self.__log4BA1.getSum(3),
 						self.__log4BA2.getCarry())
 
 	def setInput(self, *bools):
