@@ -1,9 +1,0 @@
-{
-  "test_Logical8BitAdder.py": true,
-  "test_LogicalAnd.py": true,
-  "test_LogicalFullAdder.py": true,
-  "test_LogicalHalfAdder.py": true,
-  "test_LogicalNand.py": true,
-  "test_LogicalOr.py": true,
-  "test_LogicalXor.py": true
-}

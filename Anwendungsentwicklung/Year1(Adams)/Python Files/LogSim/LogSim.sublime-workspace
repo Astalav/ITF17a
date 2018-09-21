@@ -167,45 +167,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Program/LogicalFunctions.py",
-			"settings":
-			{
-				"buffer_size": 6137,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Program/ShowStrategy.py",
-			"settings":
-			{
-				"buffer_size": 1656,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "ShowStrategy.py"
-			}
-		},
-		{
-			"file": "Tests/test_Logical8BitAdder.py",
-			"settings":
-			{
-				"buffer_size": 2328,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "test_Logical8BitAdder.py"
-			}
-		},
-		{
-			"file": "Tests/test_LogicalFullAdder.py",
-			"settings":
-			{
-				"buffer_size": 1763,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "test_LogicalFullAdder.py"
-			}
-		}
 	],
 	"build_system": "Packages/User/MyPythonBuild.sublime-build",
 	"build_system_choices":
@@ -223,7 +184,7 @@
 			],
 			[
 				"Packages/User/MyPythonBuild.sublime-build",
-				""
+				"Run Tests"
 			]
 		],
 		[
@@ -279,15 +240,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Analysis/Logical8BitAdder",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Program",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests",
-		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/UML-Classdiagrams"
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Year1(Adams)/Python Files/LogSim"
 	],
 	"file_history":
 	[
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Year1(Adams)/Python Files/LogSim/Tests/test_LogicalFullAdder.py",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Year1(Adams)/Python Files/LogSim/Tests/test_Logical8BitAdder.py",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Year1(Adams)/Python Files/LogSim/Program/ShowStrategy.py",
+		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Year1(Adams)/Python Files/LogSim/Program/LogicalFunctions.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests/test_LogicalXor.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests/test_LogicalOr.py",
 		"/home/david/Documents/ITF17a/Anwendungsentwicklung/Python Files/LogSim/Tests/test_LogicalNand.py",
@@ -367,7 +327,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -403,133 +363,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Program/LogicalFunctions.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6137,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4597,
-								4597
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2865.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Program/ShowStrategy.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1656,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1656,
-								1656
-							]
-						],
-						"settings":
-						{
-							"auto_name": "ShowStrategy.py",
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 495.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Tests/test_Logical8BitAdder.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2312,
-								2328
-							]
-						],
-						"settings":
-						{
-							"auto_name": "test_Logical8BitAdder.py",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Tests/test_LogicalFullAdder.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								829,
-								829
-							]
-						],
-						"settings":
-						{
-							"auto_name": "test_LogicalFullAdder.py",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -570,7 +411,7 @@
 	"project": "LogSim.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
